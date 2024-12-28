@@ -1,0 +1,12 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+	int x, A;
+	cout << "nhap x: ";
+	cin >> x;
+	A = pow(x, 3) + 3 * pow(x, 2) + x + 1; //pow la mu
+	cout << A;
+	return 0;
+}
