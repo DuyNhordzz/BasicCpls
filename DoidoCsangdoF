@@ -1,0 +1,13 @@
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+int main()
+{
+	int C;
+	cin >> C;
+	double F;
+	F = (C * 1.8) + 32;
+	cout << fixed << setprecision(2) << F;
+	return 0;
+}
