@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+int main()
+{
+	int a, b, c, d, e, f;
+	do {
+		cout << "nhap a,b: ";
+		cin >> a >> b;
+	} while (b = 0);
+	c = a + b;
+	d = a - b;
+	e = a * b;
+	f = a / b;
+	cout << fixed << setprecision(2) << c << " " << d << " " << e << " " << f;
+	return 0;
+}
