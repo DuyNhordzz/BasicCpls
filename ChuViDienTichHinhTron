@@ -1,0 +1,14 @@
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+int main()
+{
+	int r;
+	cin >> r;
+	double C, S;
+	C = 2 * 3.14 * r;
+	S = 3.14 * r * r;
+	cout << fixed << setprecision(2) << C << " " << S;
+	return 0;
+}
