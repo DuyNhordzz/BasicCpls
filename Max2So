@@ -1,0 +1,21 @@
+#include <iostream>
+
+int main() {
+
+   int a, b;
+
+   std::cout << "Nhập số a: ";
+
+   std::cin >> a;
+
+   std::cout << "Nhập số b: ";
+
+   std::cin >> b;
+
+   int max = (a > b) ? a : b;
+
+   std::cout << "Số lớn nhất là: " << max << std::endl;
+
+   return 0;
+
+}
