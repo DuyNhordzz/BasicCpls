@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    int sum = 0;
+
+    cout << "Nhap n: ";
+    cin >> n;
+
+    // Tính tổng dãy
+    for (int i = 1; i <= n; i++) {
+        if (i % 2 == 0)
+            sum += i;   // số chẵn: cộng
+        else
+            sum -= i;   // số lẻ: trừ
+    }
+
+    cout << "Tong day la: " << sum << endl;
+
+    return 0;
+}
